@@ -1,6 +1,6 @@
 import os
 
-pre_source = "https://github.com/MichurinDev/VIM/tree/master/flats"
+pre_source = "https://raw.githubusercontent.com/MichurinDev/VIM/master/flats"
 
 with open("flat_image_source.txt", "w", encoding="utf-8") as f:
     for dir in os.listdir("flats"):
